@@ -27,7 +27,8 @@ npm i inquirer@8.2.4 and jest
   
 ## Usage
   
-Inside the terminal, use node index.js to begin the application. 
+Inside the terminal, use node index.js to begin the application. You will be prompted to answer a series of questions. If your attempt is successful you will receive a
+"Team profile generated!" success message. 
 
 ## Testing
   
