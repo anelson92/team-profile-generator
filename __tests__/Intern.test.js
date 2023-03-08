@@ -1,8 +1,8 @@
-import Intern from "./src/Intern.js";
+const Intern = require("../src/Intern")
 
-describe("Intern class", () => {
+describe("Intern", () => {
 
-    let intern = new Intern('Rick', '345', 'rick@mail.com', 'umn')
+    let intern = new Intern('Rick', '345', 'rick@mail.com', 'umn', 'Intern')
 
     it('should return the employees name', () => {
         expect(intern.getName()).toEqual('Rick');

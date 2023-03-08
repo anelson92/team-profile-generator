@@ -1,8 +1,8 @@
-import Employee from "./src/Employee.js";
+const Employee = require("../src/Employee")
 
-describe("Employee class", () => {
+describe("Employee", () => {
 
-    let worker = new Employee('Amanda', '123', 'amanda@mail.com')
+    let worker = new Employee('Amanda', '123', 'amanda@mail.com', 'Employee')
 
     it('should return the employees name', () => {
         expect(worker.getName()).toEqual('Amanda');

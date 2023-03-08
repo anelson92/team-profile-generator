@@ -1,8 +1,8 @@
-import Manager from "./src/Manager.js";
+const Manager = require("../src/Manager")
 
-describe("Manager class", () => {
+describe("Manager", () => {
 
-    let manager = new Manager('Amanda', '123', 'amanda@mail.com', '999')
+    let manager = new Manager('Amanda', '123', 'amanda@mail.com', 'Manager', '999')
 
     it('should return the employees name', () => {
         expect(manager.getName()).toEqual('Amanda');
@@ -13,7 +13,7 @@ describe("Manager class", () => {
     })
         
     it("should return the employee's email", () => {
-        expect(manager.getEmail()).toEqual('Amanda@mail.com'); 
+        expect(manager.getEmail()).toEqual('amanda@mail.com'); 
     })
 
     it("should return the employee's role", () => {

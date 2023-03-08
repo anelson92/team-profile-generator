@@ -1,8 +1,8 @@
-import Engineer from "../classes/Engineer";
+const Engineer = require("../src/Engineer")
 
-describe('Engineer Class', () => {
+describe('Engineer', () => {
 
-    let engineer = new Engineer('bob', '987', 'bob@mail.com', 'bobgit')
+    let engineer = new Engineer('bob', '987', 'bob@mail.com', 'bobgit', 'Engineer')
 
     it('should return the engineers name', () => {
         expect(engineer.getName()).toEqual('bob');
