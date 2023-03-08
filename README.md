@@ -1,5 +1,47 @@
 # team-profile-generator
 
+## Table of Contents
+  
+  
+ * [Description](#Description)
+  
+ * [Installation](#Installation)
+  
+ * [Usage](#Usage)
+  
+ * [Testing](#Testing)
+  
+ * [Contributing](#Contributing)
+  
+ * [Questions](#Questions)
+  
+ * [License](#License)
+  
+## Description
+  
+This team profile generator uses inquirer and jest to assist with creating an HTML file to show off your best asset, your team!!
+  
+## Installation
+  
+npm i inquirer@8.2.4 and jest
+  
+## Usage
+  
+Inside the terminal, use node index.js to begin the application. 
+
+## Testing
+  
+npm run test
+  
+## Contributing
+  
+N/A
+  
+## Questions
+  
+If you have questions or need to reach out, you can find me on Github (https://github.com/anelson92) or by email (amanda92nelson@gmail.com)
+  
+
 ##License 
 
 MIT License
