@@ -2,25 +2,25 @@ import Manager from "./src/Manager.js";
 
 describe("Manager class", () => {
 
-    let manager = new Manager('Amanda', '123', 'amanda@mail.com', 'umn')
+    let manager = new Manager('Amanda', '123', 'amanda@mail.com', '999')
 
     it('should return the employees name', () => {
-        expect(intern.getName()).toEqual('Rick');
+        expect(manager.getName()).toEqual('Amanda');
     })
 
     it('should return the employees id', () => {
-        expect(intern.getId()).toEqual('345');
+        expect(manager.getId()).toEqual('123');
     })
         
     it("should return the employee's email", () => {
-        expect(intern.getEmail()).toEqual('rick@mail.com'); 
-    })
-
-    it("should return the intern's school name", () => {
-        expect(intern.getSchool()).toEqual('umn')
+        expect(manager.getEmail()).toEqual('Amanda@mail.com'); 
     })
 
     it("should return the employee's role", () => {
-        expect(intern.getRole()).toEqual('Intern');
+        expect(manager.getRole()).toEqual('Manager');
+    })
+
+    it("should return the employee's office number", () => {
+        expect(manager.getOfficeNum()).toEqual('999');
     })
 })

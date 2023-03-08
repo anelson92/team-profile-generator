@@ -1,0 +1,22 @@
+.list-group {
+    list-style-type: none;
+}
+
+.card {
+    border: 1px;
+    box-shadow: 4px 4px 4px #355E5F;
+    background-color: #D4F7F8;
+    font-size: 26px;
+    list-style-type: none;
+}
+
+.container-fluid {
+    background-color: #D40F50;
+    color: white;
+    margin: 10px;
+    
+}
+
+.container {
+    margin: 10px 10px;
+}
