@@ -17,7 +17,7 @@
   
  * [License](#License)
  
- *[Links](#Links)
+ * [Links](#Links)
   
 ## Description
   
